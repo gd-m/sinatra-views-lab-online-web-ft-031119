@@ -8,7 +8,8 @@
     <h1>Today</h1>
     <%t = Time.new%>
     <%day = t.strftime("%A")%>
+    <%month = t.strftime("%B %d, %Y")%>
 
-    <p>The date is <%= day%>, </p>
+    <p>The date is <%= day%>, <%= month%> </p>
   </body>
 </html>
